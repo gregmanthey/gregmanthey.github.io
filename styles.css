@@ -1,0 +1,117 @@
+body {
+  background-color: #777777;
+  font-family: Lato, Geneva, sans-serif;
+}
+
+h1 {
+  color: blue;
+  font-size: 48px;
+  text-shadow: 3px 2px black;
+  text-align: center;
+}
+
+h2 {
+  color: #0033FF;
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+.main_section {
+  border: 3px blue solid;
+  border-radius: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#title {
+  float: right;
+  font-size: 36px;
+  text-align: center;
+  display: block;
+  padding: 12px;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff8800;
+  font-size: 20px;
+}
+
+#navbar li a {
+  float: left;
+  text-align: center;
+  display: block;
+  padding: 24px;
+  text-decoration: none;
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: #333333;
+  color: white;
+}
+
+#navbar li a.active {
+  background-color: #333333;
+  color: white;
+}
+
+.content {
+  padding: 40px;
+  border-left: 6px solid blue;
+}
+
+.image img {
+  float: right;
+  z-index: -1;
+}
+
+.image_text {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.index_page {
+  float: left;
+  width: 45%;
+}
+
+.project {
+  border: 2px blue solid;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 20px;
+  overflow: auto;
+  background-color: #999999;
+}
+
+.project img {
+  max-width: 100%;
+  max-height: 400px;
+  float: right;
+}
+
+.project:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact_card {
+  position: relative;
+  left: 40px;
+  top: 40px;
+  background-color: #bbbbbb;
+  padding: 20px;
+  border: 3px solid blue;
+  border-radius: 12px;
+  width: 30%;
+}
